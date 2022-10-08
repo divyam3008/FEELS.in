@@ -1,0 +1,359 @@
+<html>
+
+<head>
+    <br>
+    <link rel="icon" href="thumbnailll.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+        }
+
+        .navbar ul a:active {
+            background-color: #B233FF;
+            font-size: 50px;
+        }
+
+        .navbar {
+            background-color: rgb(164, 74, 206);
+        }
+
+        .navbar ul {
+            list-style: none;
+            /* display : flex ;  */
+        }
+
+        .change {
+            cursor: pointer;
+            border: 3px solid rgba(117, 38, 153, 0);
+            text-align: center;
+            border-radius: 50%;
+            padding: 10px;
+            margin-right: 10px;
+            margin-top: 5px;
+            float: right;
+            font-size: 30px;
+        }
+
+        .navbar ul li {
+            float: left;
+            color: #B233FF;
+            font-size: 20px;
+            font-family: sans-serif;
+            transition: all 0.5s;
+            margin-left: 14%;
+        }
+
+        .navbar ul li:hover {
+            font-size: 25px;
+            color: rgb(44, 200, 52);
+            text-shadow: 3px 3px 30px #B233FF;
+            display: block;
+        }
+
+
+        marquee {
+            font-size: 40px;
+            color: #B233FF;
+            font-weight: bolder;
+        }
+
+        #container {
+            height: 100%;
+            width: 200px;
+            background-color: rgb(0, 0, 0);
+            position: fixed;
+            left: -200px;
+            transition: all 0.4s ease-in-out;
+            top: 0px;
+        }
+
+
+        link {
+            border-radius: 50%;
+        }
+
+        /* width */
+        ::-webkit-scrollbar {
+            width: 20px;
+            height: 10px;
+            border-radius: 45px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: rgba(255, 228, 196, 0);
+            border-radius: 10px;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #B233FF;
+            border-radius: 45px;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #f133ff;
+        }
+
+        .imag {
+            width: 500px;
+            height: 500px;
+        }
+
+        .imagee {
+            width: 490px;
+            height: 500px;
+        }
+
+        h2 {
+            color: #B233FF;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        .darkmode {
+            background-color: rgb(0, 0, 0);
+            color: #B233FF;
+        }
+
+        button {
+            width: 50px;
+            height: 50px;
+            background-color: #B233FF;
+            font-size: 20px;
+            margin-left: 50%;
+        }
+
+        p {
+            color: #B233FF;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        .im {
+            width: 100px;
+            height: 100px;
+            margin-left: 47%;
+        }
+
+        .slideshow-container {
+            max-width: 800px;
+            position: relative;
+            margin: auto;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+
+        /* Hide the images by default */
+        .mySlides {
+            display: none;
+            border: #B233FF 1px solid;
+        }
+
+        .row img {
+            width: 100%;
+            height: 95%;
+            border: #B233FF 1px solid;
+        }
+
+        .cat {
+            text-align: center;
+            font-size: 40px;
+            font-weight: bolder;
+        }
+
+        .aaa,
+        .aa {
+            text-decoration: none;
+            color: #B233FF;
+            font-size: medium;
+            transition: all 0.5s;
+        }
+
+        .aaa:hover {
+            font-size: large;
+            color: rgb(44, 200, 52);
+            text-shadow: 3px 3px 30px #B233FF;
+        }
+
+        .aa:hover {
+            font-size: large;
+            color: rgb(44, 200, 52);
+            text-shadow: 3px 3px 30px #B233FF;
+        }
+
+        .ppp {
+            color: #B233FF;
+            font-size: 25px;
+            text-align: left;
+        }
+
+        .aaaa {
+            text-decoration: none;
+            color: #B233FF;
+            font-size: medium;
+            transition: all 0.5s;
+            font-size: 25px;
+        }
+
+        .aaaa:hover {
+            font-size: 29px;
+            color: rgb(44, 200, 52);
+            text-shadow: 3px 3px 30px #B233FF;
+        }
+        a{
+            text-decoration: none;
+            transition: all 0.5s;
+        }
+        a:hover{
+            font-size: larger;
+            color:rgb(44, 200, 52);
+        }
+        
+    </style>
+    <title>Women's</title>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <ul>
+            <a href="feels.html">
+                <li> Home </li>
+            </a>
+            <a href="men.html">
+                <li> Men </li>
+            </a>
+            <a href="women.html">
+                <li> Women </li>
+            </a>
+            <a href="kids.html">
+                <li> Kids </li>
+            </a>
+            <a href="about.html">
+                <li> About Us </li>
+            </a>
+        </ul>
+    </div> <br> <br> <br><br> <br>
+
+    <h1 align="center">FEELS - Women's Clothing</h1> <br>
+    <font>
+        <hr color="#B233FF">
+    </font>
+    <br>
+    <h3 align="center">We at FEELS believe our Queens look best in comfortable clothing made <br>with world-class
+        quality cloth depicting state of the art fashion customisable to every need!</h3> <br>
+    <center>
+        <h2><i><b>We provide a variety of clothing including:</i></b></h2> <br>
+        <font size=4>
+            <center>Smart Casual</center>
+            <center>Comfort</center>
+            <center>Fitness</center>
+            <center>Formals</center>
+        </font><br> <br>
+        <h2>
+            <center> <i>Why Us?
+        </h2></i>
+    </center>
+    <font size="4">
+        <p>We at FEELS have innovation at the heart of our designs, always striving to make the most comfortable yet
+            stylish clothing possible. With every design we create a distinct look infused with the latest trends. We
+            are open to all inputs from our customers and always cater to every need and concern.This dedication has
+            brought us to where we are today and from here we can go even higher. </p>
+    </font>
+    <h2><b><i> What's next?</b></i></h2>
+    <font size=4>
+        <p>We are working to move into new clothing spaces from Retro Bohemian to Tech suits. But we are most excited to
+            reveal our newest bind between yarn and tech:<b> Modern Fabric Technology</b> This fabric can produce
+            determined effects to adjust to any and all surroundings and needs. It can change colour, emit vibrations or
+            even display custom text. But its most important feature is collecting data. It can seamlessly work with
+            your device and tracking your temperature and heartbeat at any given moment to keep you safe. We believe
+            this technology will bring a new generation of clothing.
+        </p>  <br>
+    </font>
+    <h2><i><b>Let's See What Our Customers Have To Say</h2></i></b> <br>
+    &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; <audio controls>
+        <source src="customer1.mp3" type="audio/mp3">
+    </audio>
+    <audio controls>
+        <source src="customer2.mp3" type="audio/mp3">
+    </audio> <br> <br>
+
+    <p class="cat">&nbsp;&nbsp;&nbsp;Women's Collection</p> <br><br>
+    <div class="row">
+        <div class="column">
+            <img src="woma.jpg">
+        </div>
+        <div class="column">
+            <img src="women.jpg">
+        </div>
+        <div class="column">
+            <img src="womenn.jpg">
+        </div>
+    </div>
+    <p class="ppp">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;<a href="order.html">Vibrant Camo Set AED 289</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="order.html">Dark Tracksuit AED 279</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="order.html">Balenciaga x Feels AED 399</a>
+    </p> <br>
+    <div class="row">
+        <div class="column">
+            <img src="womennn.jpg">
+        </div>
+        <div class="column">
+            <img src="woman5.jpg">
+        </div>
+        <div class="column">
+            <img src="woman6.jpg">
+        </div>
+    </div>
+    <p class="ppp">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="order.html">Dark Cargo AED
+            109</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;<a href="order.html">Light Comfy Set AED 179</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="order.html">Dark Hoodie AED 100</a>
+    </p> <br>
+
+
+    <hr color="#B233FF "> <br> <br><br><br><br>
+    <h2>Copyright © 2022 Feels . All Rights Reserved. Powered by Team F E E L S </h2> <br><br><br><br><br>
+    <hr color="#B233FF"> <br><br>
+
+    <p>&nbsp; Toggle Between Light/Dark Mode</p> <br><button onclick="myFunction()">💡</button> <br> <br>
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("darkmode");
+        }
+    </script>
+    <hr color="#B233FF"> <br> <br>
+</body>
+
+</html>

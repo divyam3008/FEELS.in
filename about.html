@@ -1,0 +1,306 @@
+<html>
+
+<head>
+    <br>
+    <link rel="icon" href="thumbnailll.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+        }
+
+        .navbar ul a:active {
+            background-color: #B233FF;
+            font-size: 50px;
+        }
+
+        .navbar {
+            background-color: rgb(164, 74, 206);
+        }
+
+        .navbar ul {
+            list-style: none;
+            /* display : flex ;  */
+        }
+
+        .change {
+            cursor: pointer;
+            border: 3px solid rgba(117, 38, 153, 0);
+            text-align: center;
+            border-radius: 50%;
+            padding: 10px;
+            margin-right: 10px;
+            margin-top: 5px;
+            float: right;
+            font-size: 30px;
+        }
+
+        .navbar ul li {
+            float: left;
+            color: #B233FF;
+            font-size: 20px;
+            font-family: sans-serif;
+            transition: all 0.5s;
+            margin-left: 14%;
+        }
+
+        .navbar ul li:hover {
+            font-size: 25px;
+            color: rgb(44, 200, 52);
+            text-shadow: 3px 3px 30px #B233FF;
+            display: block;
+        }
+
+
+        marquee {
+            font-size: 40px;
+            color: #B233FF;
+            font-weight: bolder;
+        }
+
+        #container {
+            height: 100%;
+            width: 200px;
+            background-color: rgb(0, 0, 0);
+            position: fixed;
+            left: -200px;
+            transition: all 0.4s ease-in-out;
+            top: 0px;
+        }
+
+
+        link {
+            border-radius: 50%;
+        }
+
+        /* width */
+        ::-webkit-scrollbar {
+            width: 20px;
+            height: 10px;
+            border-radius: 45px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: rgba(255, 228, 196, 0);
+            border-radius: 10px;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #B233FF;
+            border-radius: 45px;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #f133ff;
+        }
+
+        .imag {
+            width: 500px;
+            height: 500px;
+        }
+
+        .imagee {
+            width: 490px;
+            height: 500px;
+        }
+
+        h2 {
+            color: #B233FF;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        .darkmode {
+            background-color: rgb(0, 0, 0);
+            color: #B233FF;
+        }
+
+        button {
+            width: 50px;
+            height: 50px;
+            background-color: #B233FF;
+            font-size: 20px;
+            margin-left: 50%;
+        }
+
+        p {
+            color: #B233FF;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        .im {
+            width: 100px;
+            height: 100px;
+            margin-left: 47%;
+        }
+
+        .slideshow-container {
+            max-width: 800px;
+            position: relative;
+            margin: auto;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+
+        /* Hide the images by default */
+        .mySlides {
+            display: none;
+            border: #B233FF 1px solid;
+        }
+
+        .row img {
+            width: 100%;
+            height: 95%;
+            border: #B233FF 1px solid;
+        }
+
+        .cat {
+            text-align: center;
+            font-size: 40px;
+            font-weight: bolder;
+        }
+
+        .aaa,
+        .aa {
+            text-decoration: none;
+            color: #B233FF;
+            font-size: medium;
+            transition: all 0.5s;
+        }
+
+        .aaa:hover {
+            font-size: large;
+            color: rgb(44, 200, 52);
+            text-shadow: 3px 3px 30px #B233FF;
+        }
+
+        .aa:hover {
+            font-size: large;
+            color: rgb(44, 200, 52);
+            text-shadow: 3px 3px 30px #B233FF;
+        }
+
+        .ppp {
+            color: #B233FF;
+            font-size: 25px;
+            text-align: left;
+        }
+
+        .aaaa {
+            text-decoration: none;
+            color: #B233FF;
+            font-size: medium;
+            transition: all 0.5s;
+            font-size: 25px;
+        }
+
+        .aaaa:hover {
+            font-size: 29px;
+            color: rgb(44, 200, 52);
+            text-shadow: 3px 3px 30px #B233FF;
+        }
+
+        h3 {
+            color: #B233FF;
+        }
+
+        h1 {
+            color: #B233FF;
+            text-align: center;
+        }
+    </style>
+    <title>About Us</title>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <ul>
+            <a href="feels.html">
+                <li> Home </li>
+            </a>
+            <a href="men.html">
+                <li> Men </li>
+            </a>
+            <a href="women.html">
+                <li> Women </li>
+            </a>
+            <a href="kids.html">
+                <li> Kids </li>
+            </a>
+            <a href="about.html">
+                <li> About Us </li>
+            </a>
+        </ul>
+    </div> <br> <br> <br><br> <br> <br>
+    <hr color="#B233FF"> <br>
+    <p class="cat">&nbsp;&nbsp;&nbsp;About Us</p><br>
+    <hr color="#B233FF"> <br>
+    <h3 style="text-align: center;">&nbsp;&nbsp;&nbsp;Welcome To <span id="W_Name1">FEELS Clothing</span></h3> <br>
+    <p><span id="W_Name2">From Kids to Adults , We provide luxury clothing for everyone and everywhere. We at
+            FEELS</span>
+        are experts in clothing, engineering the most comfortable as well as stylish clothes!! <span id="W_Type1">We are
+            the no.1 luxury clothing</span> brand in India , But we ship internationally for free !. Now we're looking
+        to expand globally through our various
+        collaborations
+        . Here we will
+        provide you products woven with the finest material. We're dedicated to provide you the best
+        of <span id="W_Type2">our services</span>, with a focus on customer satisfaction and <span
+            id="W_Spec">Consistent good quality</span>.
+        We're working to turn our passion for <span id="W_Type3">clothing</span> into a
+    <p style="text-align: center;"> booming online store as well as an internationally recognised brand.
+    </p>
+    </p>
+    <p style="text-align: center;">We will keep adding new and better products on our website for all of you.<br><br> We
+        sincerely hope you enjoy your online shopping experience.</p> <br>
+    <p style="font-weight: bold; text-align: center;">Thanks For Visiting Our Site<br><br> <br>
+        <hr color=" #B233FF"> <br>
+    <p style="color: #B233FF; font-size: 25px; font-weight: bold; text-align: center;">Have a nice day!</p>
+    </p> <br>
+    <hr color="#B233FF">
+    <hr color="#B233FF"> <br> <br>
+    <hr color="#B233FF"> <br>
+    <h1>CONTACT US</h1> <br>
+    <hr color="#B233FF"> <br>
+    </i>
+    <p>EMAIL : customersupport@feels.com</p> <br> <br>
+    <p>NUMBER : +91 9895694120</p> <br> <br>
+    <p>ADDRESS : <br><br>HEAD QUARTERS : Unit No. 32, 721, Puri - Cuttack Rd, Rasulgarh Industrial Estate, Industrial Area Estate,
+        Rasulgarh, Bhubaneswar, Odisha 751010, India<br> <br>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.2175507791994!2d85.85422981492037!3d20.291260386402463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a190a04efbbdd99%3A0xf3f0554b02d85a00!2sEsplanade%20One%20Ln%2C%20Industrial%20Area%20Estate%2C%20Rasulgarh%2C%20Bhubaneswar%2C%20Odisha%20751007%2C%20India!5e0!3m2!1sen!2sae!4v1665167006755!5m2!1sen!2sae"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </p> <br> <br> <p>See Our Other Locations : <a href="locations.html">here</a></p> <br>
+    <hr color="#B233FF"> <br> <br>
+    <p>&nbsp; Toggle Between Light/Dark Mode</p> <br><button onclick="myFunction()">💡</button> <br> <br>
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("darkmode");
+        }
+    </script>
+    <hr color="#B233FF"> <br> <br>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+1. SQL - Structured Query Language(seperate from programming or markup languages)
+
+2. SQL Has many variations or softwares like MySQL , PostgreSQL , etc...
+
+3. SQL comes under the domain of Relational Data Base Management System (RDBMS) of Computer Science subject.
+
+4. We are using MySQL as it is an industry standard and the most widely used DBMS (Data Base Management System).
+
+5. In DBMS we deal with storing data in bulk inside multiple seperate tables and these tables are further stored in one particular
+   database. EG : You can have multiple databases like school.db , market.db , hospital.db , etc... and in each of these .db files
+   can be multiple tables having multiple rows and columns of data , lets say , school.db database file has two tables namely , 
+   student table and teacher table and both of these tables are like excel sheets having rows & columns of student and teacher data ,
+   similarly , market.db can have multiple tables like Grocery Table , Fashion Table , etc... and so on
+   Hence each of these .db files act like seperate folders which manage their own respective tables.
+
+6. But unlike the normal file handling offered by programming languages (EG :open() function in Python for file handling) which can 
+   only be used for storing the data permanently , MySQL allows you to not only store data permanently in a structured tabular format ,
+   it also password-protects this data and also allows to access this data remotely ( from another PC :- Online ) or locally
+   (from own PC :- Offline ) Provided MySQL is installed on a remote or local server and that .db file is present on that server.
+
+7. Local Server or localhost whose IP address is  127.0.0.1  is the same for every PC , Mobile Phone or Any Device Using Internet as
+   A localhost is used for offline development purposes , meaning for testing , debugging , backend or headless communication with
+   localhost or running a server-based application ( EG : Jupyter-Notebook runs on the localhost  127.0.0.1:8888 where 8888 is the 
+   default port-number for Jupyter-Notebook to run alone on that port)

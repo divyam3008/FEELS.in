@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up</title>
+    <style>
+        #country{
+            width: 30%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: rgb(145, 145, 145) 3px solid;
+            background: #f1f1f1;
+            font-family: Arial, Helvetica, sans-serif;;
+            font-weight: bold;
+            color: rgb(148, 146, 146);
+    
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    
+        * {
+            box-sizing: border-box
+        }
+    
+        
+    
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+    
+        input[type=text]:focus,
+        input[type=password]:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+    
+         hr {
+            border: 1px solid #f1f1f1;
+            margin-bottom: 25px;
+        }
+    
+        
+    
+        button {
+            background-color: #9931d9;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        }
+    
+         button:hover {
+            opacity: 1;
+        }
+    
+      
+        .signupbtn {
+            float: left;
+            width: 100%;
+        }
+        
+        .container {
+            padding: 16px;
+        }   
+    </style>
+</head>
+
+<body>
+        <form action="feels.html">
+        <div class="container">
+            <h1>Sign Up</h1>
+            <p>Please fill in this form to create an account.</p>
+            <hr>
+            
+            <label for="email"><b>Email : </b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+            
+            <label for="psw"><b>Password : </b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            
+            <label for="psw-repeat"><b>Repeat Password : </b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-r" required>
+            
+        <B>Country :</B> <br>
+        <select id="country" name="country" required>
+            <option>-select-</option>
+            <option value="AF">Afghanistan</option>
+            <option value="AL">Albania</option>
+            <option value="DZ">Algeria</option>
+            <option value="AR">Argentina</option>
+            <option value="AM">Armenia</option>
+            <option value="AU">Australia</option>
+            <option value="BS">Bahamas</option>
+            <option value="BH">Bahrain</option>
+            <option value="BD">Bangladesh</option>
+            <option value="BE">Belgium</option>
+            <option value="BT">Bhutan</option>
+            <option value="BR">Brazil</option>
+            <option value="CA">Canada</option>
+            <option value="CL">Chile</option>
+            <option value="CO">Colombia</option>
+            <option value="HR">Croatia</option>
+            <option value="DK">Denmark</option>
+            <option value="EG">Egypt</option>
+            <option value="FR">France</option>
+            <option value="GE">Georgia</option>
+            <option value="DE">Germany</option>
+            <option value="GR">Greece</option>
+            <option value="HK">Hong Kong</option>
+            <option value="HU">Hungary</option>
+            <option value="IS">Iceland</option>
+            <option value="IN">India</option>
+            <option value="IL">Israel</option>
+            <option value="IT">Italy</option>
+            <option value="JM">Jamaica</option>
+            <option value="JP">Japan</option>
+            <option value="JO">Jordan</option>
+            <option value="KE">Kenya</option>
+            <option value="KP">South Korea</option>
+            <option value="KW">Kuwait</option>
+            <option value="LB">Lebanon</option>
+            <option value="MY">Malaysia</option>
+            <option value="MV">Maldives</option>
+            <option value="MU">Mauritius</option>
+            <option value="MC">Monaco</option>
+            <option value="MA">Morocco</option>
+            <option value="NP">Nepal</option>
+            <option value="NL">Netherlands</option>
+            <option value="NZ">New Zealand</option>
+            <option value="NO">Norway</option>
+            <option value="OM">Oman</option>
+            <option value="PT">Portugal</option>
+            <option value="QA">Qatar</option>
+            <option value="SA">Saudi Arabia</option>
+            <option value="SG">Singapore</option>
+            <option value="ZA">South Africa</option>
+            <option value="ES">Spain</option>
+            <option value="LK">Sri Lanka</option>
+            <option value="SE">Sweden</option>
+            <option value="CH">Switzerland</option>
+            <option value="TW">Taiwan</option>
+            <option value="TH">Thailand</option>
+            <option value="TR">Turkey</option>
+            <option value="TM">Turkmenistan</option>
+            <option value="UA">Ukraine</option>
+            <option value="AE">United Arab Emirates</option>
+            <option value="GB">United Kingdom</option>
+            <option value="US">United States</option> <br>
+        </select>
+            
+            <div>
+                <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
+        </div>
+    </form>
+    
+</body>
+
+</html>

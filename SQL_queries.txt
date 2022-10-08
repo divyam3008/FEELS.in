@@ -1,0 +1,74 @@
+1.All coloumns in a table
+
+select * from country ;
+
+
+2.'where'
+
+select name , population
+from country
+where continent ='asia'
+
+
+3. 'or
+
+select name, population
+from country
+where population >= 10000000 OR continent = ‘asia’;
+
+
+4. 'and'
+
+select name, population
+from country
+where population >= 100000000 AND continent = ‘asia’;
+
+
+5. Obtain Non-repeated Records
+
+‘DISTINCT’ keyword after ‘SELECT’ for getting only a specific type 
+of record, thereby avoiding any repeated records.
+
+select distinct name, color
+from clothing;
+
+
+6. 'is/is not'
+
+select name, color
+from clothing
+where color is not null;
+
+
+7. Mathematical operators
+
+SELECT price – discount
+FROM product;
+
+
+8.Average
+
+SELECT AVG (price)
+FROM product;
+
+
+9. Max Value
+
+SELECT MAX (price)
+FROM product;
+
+
+10. Min Value
+
+SELECT MAX (price)
+
+
+11. Insert Data
+
+INSERT INTO product(id, name, category)
+VALUES (15, 'bottle', 'kitchen supplies');
+FROM product;
+
+
+
+
